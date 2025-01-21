@@ -1,8 +1,16 @@
 /* All Body Section Start */
 
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"); /* Font Quicksand */
 * {
   margin: 0;
   padding: 0;
+
+  .quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
 }
 
 /* All Body Section End */
@@ -12,7 +20,70 @@
 
 /* --------------------- Header Section Start------------------ */
 
+/* Nav-bar Style Start */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2vw 0vw 2vw 0vw;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-title {
+  color: rgb(17, 17, 17);
+  font-family: Quicksand;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.menu ul {
+  display: flex;
+}
+.menu ul > li {
+  list-style-type: none;
+  margin: 10px;
+}
+.menu ul > li > a {
+  text-decoration: none;
+  /* color: black; */
+  font-size: 1.1rem;
+}
+.menu ul > li > a:hover{
+  font-size: 1.2rem;
+  background-color:rgb(241, 104, 13);
+  color: white;
+  padding: .5vw;
+  border: none;
+  border-radius: 8px;
+}
+.menu-color1 {
+  color: rgb(241, 104, 13);
+}
+.menu-color2 {
+  color: rgb(4, 137, 199);
+}
+.menu-color3 {
+  color: rgb(64, 193, 236);
+}
+.menu-color4 {
+  color: rgb(39, 21, 199);
+}
+.contact-btn button {
+  padding: 1vw 2vw;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(254, 163, 1);
+  font-size: 1rem;
+}
+/* Nav-bar Style End */
+
 /* Section-1 Start */
+
 /* Section-1 End */
 
 /* --------------------- Header Section End--------------------- */
@@ -27,7 +98,30 @@
 /* ------------------------------------------------------------- */
 /* Media Quarry For Responsive Start */
 
-@media screen {
+@media screen and (max-width:576px){
+  /* Responsive Nav-Bar of Mobile Start */
+  .menu{
+    display: none;
+  }
+  .logo-title{
+    display: none;
+  }
+  .contact-btn{
+    display: none;
+  }
+  .hamberher-icon{
+    display:flex;
+
+  }
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 2vw 4vw 1vw 3vw; */
+    padding: 4vw;
+    border-bottom: 1px solid orange;
+    border-width: 100%;
+  }
+  /* Responsive Nav-Bar of Mobile End */
 }
 
 /* Media Quarry For Responsive End */
