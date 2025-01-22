@@ -91,9 +91,6 @@
 /* Section-1 Start */
 #Section-1 {
   margin: 0vw 6vw 2vw 5vw;
-  /* background-image: url("../assets/bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;*/
 }
 .section1-container {
   width: 100%;
@@ -145,15 +142,313 @@
   background-color: #fea301;
 }
 /* Section-1 End */
-/* Section-2 Start */
-#Section-2 {
-}
-
-/* Section-2 End */
 
 /* --------------------- Header Section End--------------------- */
 
 /* --------------------- Main Section Start -------------------- */
+/* Section-2 Start */
+#Section-2 {
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.section-2-title {
+  text-align: center;
+  margin-top: 1vw;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.card {
+  width: 26vw;
+  height: auto;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding: 1.5vw 2vw;
+  margin: 4vw 2vw 2vw 2vw;
+}
+.card img {
+  height: 9vw;
+  width: 9vw;
+  margin: 2vw 0vw 0.5vw 0vw;
+}
+.card1 {
+  box-sizing: border-box;
+  border: 0.94px solid rgb(222, 245, 255);
+  border-radius: 18.86px;
+
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(222, 245, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+.card2 {
+  box-sizing: border-box;
+  border: 0.94px solid rgb(255, 244, 220);
+  border-radius: 18.86px;
+
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(255, 244, 220),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+.card3 {
+  box-sizing: border-box;
+  border: 0.94px solid rgb(242, 232, 255);
+  border-radius: 18.86px;
+
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(238, 225, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+.card-title {
+  color: rgb(32, 32, 32);
+  font-family: Quicksand;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 1vw 0vw 0vw 0vw;
+}
+.card-text {
+  color: rgb(128, 128, 128);
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 1vw 0vw 0vw 0vw;
+}
+.read-more {
+  /* color: rgb(240, 170, 0); */
+  font-size: 1rem;
+  margin: 2vw;
+  border: none;
+  background-color: white;
+  /* position: absolute; */
+}
+.read-more1 {
+  color: rgb(10, 113, 230);
+}
+.read-more2 {
+  color: #fea301;
+}
+.read-more3 {
+  color: navy;
+}
+.arrow {
+  display: flex;
+  margin: 0 auto;
+}
+.arrow-container {
+  display: flex;
+  margin: 2vw auto;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+.fa-angle-left {
+  background-color: #fea301;
+  padding: 1.2vw;
+  border: none;
+  border-radius: 50%;
+  font-size: 25px;
+  color: white;
+}
+.fa-angle-right {
+  background-color: #fea301;
+  padding: 1.2vw;
+  border: none;
+  border-radius: 50%;
+  font-size: 25px;
+  color: white;
+}
+/* Section-2 End */
+/* Section-3 Start */
+#Section-3 {
+  /* display: flex; */
+  background-image: url("../assets/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  margin-bottom: 3vw;
+  background: url(image),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+.story-title {
+  text-align: center;
+  margin-top: 3vw;
+  margin-bottom: 2vw;
+}
+.story-container {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  /* justify-content: center; */
+}
+.big-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+  height: 47vw;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 1vw 1vw 1vw 6.5vw;
+  padding-top: 0vw;
+  /* padding-bottom: 3.9vw; */
+}
+.big-card img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.big-card button {
+  width: 12vw;
+  padding: 1vw 1.3vw;
+  border: none;
+  background-color: rgb(7, 124, 153);
+  border-radius: 10px;
+  position: relative;
+  top: -1.5vw;
+  left: 4vw;
+}
+.big-card h3 {
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 1vw 2vw;
+}
+.big-card p {
+  padding: 2.5vw 2vw 0vw 2vw;
+}
+.small-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2vw;
+  width: 50vw;
+  margin: 1vw 6.5vw 1vw 1vw;
+}
+.story-card h3 {
+  color: rgb(0, 0, 0);
+  font-family: Quicksand;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 1vw 2.5vw;
+  text-align: left;
+}
+.story-card img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.st1 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  height: auto;
+}
+.st2 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  height: auto;
+}
+.st3 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  height: auto;
+}
+.st4 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  height: auto;
+}
+.st1 button {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  width: 150px;
+  padding: 0.7vw 1.1vw;
+  border: none;
+  background-color: #95b226;
+  border-radius: 10px;
+  position: relative;
+  top: -1.4vw;
+  left: 4vw;
+}
+.st2 button {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  width: 150px;
+  padding: 0.7vw 1.1vw;
+  border: none;
+  background-color: #5d58f0;
+  border-radius: 10px;
+  position: relative;
+  top: -1.4vw;
+  left: 4vw;
+}
+.st3 button {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  width: 150px;
+  padding: 0.7vw 1.1vw;
+  border: none;
+  background-color: #95b226;
+  border-radius: 10px;
+  position: relative;
+  top: -1.4vw;
+  left: 4vw;
+}
+.st4 button {
+  color: rgb(255, 255, 255);
+  font-family: Raleway;
+  width: 150px;
+  padding: 0.7vw 1.1vw;
+  border: none;
+  background-color: #95b226;
+  border-radius: 10px;
+  position: relative;
+  top: -1.4vw;
+  left: 4vw;
+}
+.sty-btn{
+  display: flex;
+  margin: 2vw auto;
+}
+
+/* Section-3 Start */
+
 /* --------------------- Main Section End ---------------------- */
 
 /* -------------------- Footer Section Start ----------------- */
@@ -186,6 +481,90 @@
     border-width: 100%;
   }
   /* Responsive Nav-Bar of Mobile End */
+  /* Section-1 Responsive Start */
+  .section1-container {
+    flex-direction: column-reverse;
+    margin: auto;
+  }
+  .title-section {
+    width: auto;
+    text-align: center;
+  }
+  .image-section {
+    width: auto;
+    display: flex;
+    margin-left: 0vw;
+  }
+  .image-section img {
+    width: 90vw;
+  }
+  /* Section-1 Responsive End */
+  /* Section-2 Responsive Start */
+  .card-container {
+    flex-direction: column;
+  }
+  .card {
+    width: auto;
+    margin: 0vw 10vw 3vw 10vw;
+    height: auto;
+    padding: 10vw 20vw;
+  }
+  .read-more {
+    margin-top: 4vw;
+  }
+  .arrow {
+    display: none;
+  }
+  /* Section-2 Responsive End */
+  /* Section-3 Responsive Start */
+  .big-card {
+    display: none;
+  }
+  .small-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: auto;
+    margin: 0 auto;
+  }
+  #Section-3 {
+    height: 550px;
+  }
+  .small-card {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .story-card {
+    position: static;
+    width: 150px;
+    height: 190px;
+    padding: 0vw 2vw;
+    overflow: hidden;
+  }
+  .story-card img{
+    width: 100%;
+  }
+  .story-card button {
+    font-family: Raleway;
+    width: 100px;
+    padding: 0.4vw 1.1vw;
+    border: none;
+    background-color: #95b226;
+    border-radius: 10px;
+    position: relative;
+    top: -1.4vw;
+    left: 4vw;
+    font-size: 10px;
+  }
+  .story-card h3{
+    font-size: 12px;
+  }
+  .sty-btn{
+    margin-top: 30px;
+  }
+  /* Section-3 Responsive End */
 }
 
 /* Media Quarry For Responsive End */
