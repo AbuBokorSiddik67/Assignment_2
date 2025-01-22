@@ -313,7 +313,7 @@
   position: relative;
   top: -0.3vw;
   margin: 0vw 1vw 2.3vw 6.5vw;
-  padding: 3vw 0vw 2.7vw 0vw ;
+  padding: 3vw 0vw 2.7vw 0vw;
 }
 .big-card img {
   border-top-right-radius: 10px;
@@ -442,7 +442,7 @@
   top: -1.4vw;
   left: 4vw;
 }
-.sty-btn{
+.sty-btn {
   display: flex;
   margin: 2vw auto;
 }
@@ -451,13 +451,74 @@
 
 /* -------------------- Footer Section Start ----------------- */
 /* Section-4 Start */
-#Section-4{
-  background-color: #01ACFD;
+#Section-4 {
+  background-color: #01acfd;
+  height: 370px;
 }
-/* Section-5 End */
+.kids-section {
+  display: flex;
+}
+.foot {
+  color: #ffffff;
+  margin-top: 6vw;
+}
+.foot ul > li {
+  list-style: none;
+  margin-top: 1.5vw;
+}
+.foot ul > li > a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.foot p {
+  font: Quicksand;
+  font-size: 0.9rem;
+}
+.foot h2 {
+  font-size: 2.5rem;
+}
+.foot h3 {
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.foot img{
+  margin: 2vw 0.5vw 1vw 0vw;
+  /* width: 120px; */
+}
+.foot-logo{
+  margin-top: 0vw !important;
+}
+.footer-container {
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+.foot-fist-container {
+  width: 25vw;
+  margin-left: 6vw;
+  margin-right: 6vw;
+}
+.foot-second-container {
+  width: 25vw;
+  margin-left: 6vw;
+  margin-right: 6vw;
+}
+.foot-third-container {
+  width: 25vw;
+  margin-left: 2vw;
+  margin-right: 6vw;
+}
+.foot-Third-container img{
+  width: 2.5vw;
+}
+/* Section-4 End */
 /* -------------------- Footer Section End ------------------- */
-
-
 
 /* -------------------Responsive Design Start ------------------ */
 /* ------------------------------------------------------------- */
@@ -539,7 +600,7 @@
   }
   .small-card {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .story-card {
     position: static;
@@ -547,9 +608,8 @@
     height: 190px;
     overflow: hidden;
     margin-bottom: 2.5vw;
-
   }
-  .story-card img{
+  .story-card img {
     padding: 0;
     margin: 0;
   }
@@ -565,15 +625,26 @@
     left: 2.5vw;
     font-size: 10px;
   }
-  .story-card h3{
+  .story-card h3 {
     font-size: 12px;
   }
-  .sty-btn{
+  .sty-btn {
     margin-top: 30px;
   }
   /* Section-3 Responsive End */
   /* Section-4 Responsive Start */
-
+  #Section-4 {
+    height: 492px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .foot{
+    margin-left: 10vw;
+    width: 300px;
+  }
   /* Section-4 Responsive End */
 }
 /* Media Quarry For Responsive End */
