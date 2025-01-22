@@ -1,5 +1,5 @@
-/* All Body Section Start */
 
+/* All Body Section Start */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"); /* Font Quicksand */
 * {
   margin: 0;
@@ -9,11 +9,8 @@
   font-weight: normal;
   font-style: normal;
 }
-
 /* All Body Section End */
 
-/* ------------- All Body Section Shared Styles Start ------------- */
-/* ------------- All Body Section Shared Styles End --------------- */
 
 /* --------------------- Header Section Start------------------ */
 
@@ -520,6 +517,8 @@
 /* Section-4 End */
 /* -------------------- Footer Section End ------------------- */
 
+
+
 /* -------------------Responsive Design Start ------------------ */
 /* ------------------------------------------------------------- */
 /* Media Quarry For Responsive Start */
@@ -644,6 +643,12 @@
   .foot{
     margin-left: 10vw;
     width: 300px;
+  }
+  .foot-Third-container img{
+    width: 7vw;
+  }
+  .banner-btn {
+    padding: 2vw 4vw;
   }
   /* Section-4 Responsive End */
 }
