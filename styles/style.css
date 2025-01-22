@@ -142,10 +142,10 @@
   background-color: #fea301;
 }
 /* Section-1 End */
-
 /* --------------------- Header Section End--------------------- */
 
 /* --------------------- Main Section Start -------------------- */
+
 /* Section-2 Start */
 #Section-2 {
   background-image: url("../assets/bg.png");
@@ -285,13 +285,9 @@
 /* Section-2 End */
 /* Section-3 Start */
 #Section-3 {
-  /* display: flex; */
-  background-image: url("../assets/bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 900px;
-  margin-bottom: 3vw;
-  background: url(image),
+  margin-bottom: 0vw;
+  background: url("../assets/bg.png"),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
 }
 .story-title {
@@ -300,6 +296,7 @@
   margin-bottom: 2vw;
 }
 .story-container {
+  height: auto;
   display: flex;
   gap: 2vw;
   align-items: center;
@@ -307,23 +304,25 @@
 }
 .big-card {
   background-color: white;
-  display: flex;
-  flex-direction: column;
+  text-align: left;
+  width: fit-content;
   width: 35vw;
-  height: 47vw;
-  overflow: hidden;
+  height: auto;
+  overflow: clip;
   border-radius: 10px;
-  margin: 1vw 1vw 1vw 6.5vw;
-  padding-top: 0vw;
-  /* padding-bottom: 3.9vw; */
+  position: relative;
+  top: -0.3vw;
+  margin: 0vw 1vw 2.3vw 6.5vw;
+  padding: 3vw 0vw 2.7vw 0vw ;
 }
 .big-card img {
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
+  width: 35vw;
 }
 .big-card button {
-  width: 12vw;
-  padding: 1vw 1.3vw;
+  width: 160px;
+  padding: 15px 20px;
   border: none;
   background-color: rgb(7, 124, 153);
   border-radius: 10px;
@@ -342,7 +341,8 @@
   padding: 1vw 2vw;
 }
 .big-card p {
-  padding: 2.5vw 2vw 0vw 2vw;
+  padding: 2.3vw 2vw 0vw 2vw;
+  font-size: 1rem;
 }
 .small-card {
   display: grid;
@@ -370,28 +370,28 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 12px;
   height: auto;
 }
 .st2 {
   display: flex;
   flex-direction: column;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 12px;
   height: auto;
 }
 .st3 {
   display: flex;
   flex-direction: column;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 12px;
   height: auto;
 }
 .st4 {
   display: flex;
   flex-direction: column;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 12px;
   height: auto;
 }
 .st1 button {
@@ -403,7 +403,7 @@
   background-color: #95b226;
   border-radius: 10px;
   position: relative;
-  top: -1.4vw;
+  top: -1.3vw;
   left: 4vw;
 }
 .st2 button {
@@ -446,13 +446,18 @@
   display: flex;
   margin: 2vw auto;
 }
-
-/* Section-3 Start */
-
+/* Section-3 End */
 /* --------------------- Main Section End ---------------------- */
 
 /* -------------------- Footer Section Start ----------------- */
+/* Section-4 Start */
+#Section-4{
+  background-color: #01ACFD;
+}
+/* Section-5 End */
 /* -------------------- Footer Section End ------------------- */
+
+
 
 /* -------------------Responsive Design Start ------------------ */
 /* ------------------------------------------------------------- */
@@ -526,11 +531,11 @@
     align-items: center;
     justify-items: center;
     justify-content: center;
-    width: auto;
-    margin: 0 auto;
+    width: 99vw;
+    margin: 2vw 7vw 0vw 7vw;
   }
   #Section-3 {
-    height: 550px;
+    height: 570px;
   }
   .small-card {
     display: grid;
@@ -540,11 +545,13 @@
     position: static;
     width: 150px;
     height: 190px;
-    padding: 0vw 2vw;
     overflow: hidden;
+    margin-bottom: 2.5vw;
+
   }
   .story-card img{
-    width: 100%;
+    padding: 0;
+    margin: 0;
   }
   .story-card button {
     font-family: Raleway;
@@ -555,7 +562,7 @@
     border-radius: 10px;
     position: relative;
     top: -1.4vw;
-    left: 4vw;
+    left: 2.5vw;
     font-size: 10px;
   }
   .story-card h3{
@@ -565,8 +572,10 @@
     margin-top: 30px;
   }
   /* Section-3 Responsive End */
-}
+  /* Section-4 Responsive Start */
 
+  /* Section-4 Responsive End */
+}
 /* Media Quarry For Responsive End */
 /* ------------------------------------------------------------- */
 /* ---------------------Responsive Design End ------------------ */
